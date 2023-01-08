@@ -1,0 +1,18 @@
+{
+  "name": "pnpm-mono",
+  "version": "1.0.0",
+  "description": "pnpm-mono",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "root:dev": "npx nx dev @project-i/root-config",
+    "root:build": "npx nx build @project-i/root-config",
+    "nx:graph":"npx nx graph"
+  },
+  "keywords": [],
+  "author": "phuc.pham",
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "^15.4.5"
+  }
+}
