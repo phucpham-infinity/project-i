@@ -1,11 +1,13 @@
 // Require the framework and instantiate it
 import Fastify from "fastify";
+import { sum } from "@libs/curd";
 
 const fastify = Fastify({ logger: true });
 
 // Declare a route
 fastify.get("/api", async (request, reply) => {
-  return { hello: "world 7000" };
+  const data = sum(100, 1000);
+  return { hello: "world" + data };
 });
 
 // Run the server!

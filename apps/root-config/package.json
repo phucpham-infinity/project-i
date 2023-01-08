@@ -44,6 +44,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@libs/curd": "workspace:^0.1.0",
     "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.16.2",
